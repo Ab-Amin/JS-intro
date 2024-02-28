@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- links -->
+  <link rel="stylesheet" href="Styles/style.min.css">
+
+  <title>Vocabulaire</title>
+</head>
+<body> 
+
+
+  <main>
+    <div class="title">
+      <h1>Vocabulaire test</h1>
+      <p>Ajoutez des mots</p>
+    </div>
+
+    <div class="vocab">
+      <div>
+        <p>Mot Original :</p>
+        <input type="text" name="" class="original" placeholder="Entrez le mot original">
+      </div>
+      <div>
+        <p>Traduction :</p>
+        <input type="text" name="" class="traduction" placeholder="Traduction du mot">
+      </div>
+      <p class="error-msg hidden">test</p>
+    </div>
+
+    <div class="buttons">
+      <p>Il y a <span class="word-count">0</span> mot(s) enregistré(s)</p>
+      <div class="send-delete">
+        <button type="button" class="send">Envoyer</button>
+        <button type="button" class="clear-all">Effacer La liste en cours</button>
+      </div>
+      <button type="button" class="test-button hidden">Test</button>
+    </div>
+  </main>
+
+  <section class="test-window">
+    <div>
+      <div class="close"><i class="fa-solid fa-xmark"></i></div>
+      <div>
+        <h1>Traduit le mot <span class="to-translate">Test</span></h1>
+        <input type="text" class="traduction-test" placeholder="Traduction ?">
+        <button type="button">Proposer</button>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <script src="https://kit.fontawesome.com/99fa1db12f.js" crossorigin="anonymous"></script>
+  <script src="javascript/main.js"></script>
+</body>
+</html>
